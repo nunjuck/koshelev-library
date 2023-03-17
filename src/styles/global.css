@@ -1,0 +1,14 @@
+@import './libs.css';
+
+:root {
+  --base-font-size: 16px;
+  --base-font-weight-noraml: 400;
+  --base-font-weight-title: 500;
+  --base-font-family: 'Inter';
+}
+
+body {
+  font-family: var(--base-font-family), sans-serif;
+  font-size: var(--base-font-size);
+  font-weight: var(--base-font-weight-noraml);
+}

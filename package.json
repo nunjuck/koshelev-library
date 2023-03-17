@@ -17,7 +17,7 @@
   },
   "lint-staged": {
     "*.{css,md,json}": [
-      "yarn format:check"
+      "yarn format:fix"
     ],
     "*.css": [
       "yarn stylelint"
@@ -29,6 +29,7 @@
     "package.json": "npx sort-package-json"
   },
   "dependencies": {
+    "normalize.css": "^8.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
