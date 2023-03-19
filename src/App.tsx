@@ -1,7 +1,10 @@
+import { FC } from 'react'
+
 import { Home } from './pages/Home'
+
 import './styles/global.css'
 
-function App() {
+const App: FC = () => {
   return (
     <div className='app'>
       <Home />
