@@ -1,4 +1,4 @@
-# Start template Vite + React + Typescript
+# Персональная библиотека
 
 В проекте настроена работа:
 
@@ -8,6 +8,7 @@
 - Husky
 - Lint Staged
 - Commit Lint
+- Generate React CLI
 
 ## Документации
 
