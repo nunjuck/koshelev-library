@@ -1,0 +1,38 @@
+.footer {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 23px;
+}
+
+.social-network-list {
+  padding-left: 0;
+  margin: 0;
+
+  @media (--breakpoint-small-up) {
+    display: flex;
+  }
+}
+
+.social-network-item {
+  list-style-type: none;
+
+  &:not(:last-child) {
+    margin-bottom: 16px;
+
+    @media (--breakpoint-small-up) {
+      margin-bottom: 0;
+      margin-right: 50px;
+    }
+  }
+}
+
+.social-network-link {
+  color: var(--base-text-color);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.social-network-icon {
+  margin-right: 12px;
+}

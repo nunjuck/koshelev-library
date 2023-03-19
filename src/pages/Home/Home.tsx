@@ -1,6 +1,7 @@
 import { FC } from 'react'
 
-import { Header } from '../../components/Header'
+import { Footer } from '@components/Footer'
+import { Header } from '@components/Header'
 
 export const Home: FC = () => {
   return (
@@ -14,9 +15,7 @@ export const Home: FC = () => {
         </div>
       </div>
       <div className='footer-wrapper'>
-        <footer>
-          <div className='container'>footer</div>{' '}
-        </footer>
+        <Footer />
       </div>
     </div>
   )
