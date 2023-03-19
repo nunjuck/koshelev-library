@@ -1,0 +1,23 @@
+.header {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 25px;
+}
+
+.my-info {
+  @media (--breakpoint-small-up) {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.name {
+  font-size: 1.375rem;
+  font-weight: var(--base-font-weight-title);
+  margin-top: 12px;
+
+  @media (--breakpoint-small-up) {
+    margin-top: 0;
+    margin-left: 18px;
+  }
+}
