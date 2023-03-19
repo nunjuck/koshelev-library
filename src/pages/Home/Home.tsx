@@ -7,10 +7,16 @@ export const Home: FC = () => {
     <div className='layout-wrapper'>
       <div className='content-wrapper'>
         <Header />
-        <div>content page</div>
+        <div className='page-wrapper'>
+          <main>
+            <div className='container'>main content of page</div>
+          </main>
+        </div>
       </div>
       <div className='footer-wrapper'>
-        <footer>footer</footer>
+        <footer>
+          <div className='container'>footer</div>{' '}
+        </footer>
       </div>
     </div>
   )
