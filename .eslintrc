@@ -48,6 +48,10 @@
           {
             "pattern": "@/**",
             "group": "internal"
+          },
+          {
+            "pattern": "@{components, page, module, ui}/**",
+            "group": "parent"
           }
         ],
         "pathGroupsExcludedImportTypes": ["react"],
