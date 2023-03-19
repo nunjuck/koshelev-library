@@ -22,6 +22,7 @@
   },
   "plugins": [
     "react",
+    "import",
     "@typescript-eslint"
   ],
   "settings": {
@@ -29,5 +30,32 @@
       "version": "detect"
     }
   },
-  "rules": {}
+  "rules": {
+    "no-unused-vars": "error",
+    "react/function-component-definition": [
+      2,
+      {
+        "namedComponents": "arrow-function",
+        "unnamedComponents": "arrow-function"
+      }
+    ],
+    "import/order": [
+      "error",
+      {
+        "groups": ["builtin", "external", "internal", "parent", "sibling", "index"],
+        "newlines-between": "always",
+        "pathGroups": [
+          {
+            "pattern": "@/**",
+            "group": "internal"
+          }
+        ],
+        "pathGroupsExcludedImportTypes": ["react"],
+        "alphabetize": {
+          "order": "asc",
+          "caseInsensitive": true
+        }
+      }
+    ]
+  }
 }
