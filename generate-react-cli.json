@@ -1,0 +1,68 @@
+{
+  "usesTypeScript": true,
+  "usesCssModule": true,
+  "cssPreprocessor": "css",
+  "testLibrary": "None",
+  "component": {
+    "default": {
+      "path": "src/components",
+      "withStyle": true,
+      "withIndex": true,
+      "withTypes": true,
+      "withTest": false,
+      "withStory": false,
+      "withLazy": false,
+      "customTemplates": {
+        "component": "ops/_templates/component/TemplateName.tsx",
+        "index": "ops/_templates/component/index.ts",
+        "style": "ops/_templates/component/TemplateName.module.css",
+        "types": "ops/_templates/component/types.ts"
+      }
+    },
+    "page": {
+      "path": "src/pages",
+      "withStyle": true,
+      "withIndex": true,
+      "withTypes": true,
+      "withTest": false,
+      "withStory": false,
+      "withLazy": false,
+      "customTemplates": {
+        "component": "ops/_templates/component/TemplateName.tsx",
+        "index": "ops/_templates/component/index.ts",
+        "style": "ops/_templates/component/TemplateName.module.css",
+        "types": "ops/_templates/component/types.ts"
+      }
+    },
+    "module": {
+      "path": "src/modules",
+      "withStyle": true,
+      "withIndex": true,
+      "withTypes": true,
+      "withTest": false,
+      "withStory": false,
+      "withLazy": false,
+      "customTemplates": {
+        "component": "ops/_templates/component/TemplateName.tsx",
+        "index": "ops/_templates/component/index.ts",
+        "style": "ops/_templates/component/TemplateName.module.css",
+        "types": "ops/_templates/component/types.ts"
+      }
+    },
+    "ui": {
+      "path": "src/ui",
+      "withStyle": true,
+      "withIndex": true,
+      "withTypes": true,
+      "withTest": false,
+      "withStory": false,
+      "withLazy": false,
+      "customTemplates": {
+        "component": "ops/_templates/component/TemplateName.tsx",
+        "index": "ops/_templates/component/index.ts",
+        "style": "ops/_templates/component/TemplateName.module.css",
+        "types": "ops/_templates/component/types.ts"
+      }
+    }
+  }
+}

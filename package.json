@@ -5,6 +5,10 @@
   "type": "module",
   "scripts": {
     "build": "tsc && vite build",
+    "create:component": "npx generate-react-cli component",
+    "create:module": "npx generate-react-cli component --type=mofule",
+    "create:page": "npx generate-react-cli component --type=page",
+    "create:ui": "npx generate-react-cli component --type=ui",
     "dev": "vite",
     "eslint": "eslint ./src --ext .jsx,.js,.ts,.tsx --quiet --ignore-path ./.gitignore",
     "eslint:fix": "yarn eslint --fix",
