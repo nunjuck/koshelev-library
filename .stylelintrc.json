@@ -1,6 +1,8 @@
 {
   "extends": "stylelint-config-standard",
+  "plugins": ["stylelint-prettier"],
   "rules": {
-    "import-notation": "string"
+    "import-notation": "string",
+    "prettier/prettier": true
   }
 }
